@@ -4,7 +4,13 @@ myApp.config(function ($routeProvider) {
 
   $routeProvider
 
+  .when('/', {
 
+templateUrl: 'pages/about.html',
+controller: 'aboutController'
+
+
+})
 
 // This will bring you to the About page
    .when('/about', {
