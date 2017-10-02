@@ -1,11 +1,2 @@
 # BlueKnight
-# BlurKnightt
-# BlurKnightt
-# BlurKnightt
-# BlurKnightt
-# BlurKnightt
-# BlurKnightt
-# BlurKnightt
-# BlurKnightt
-# BlurKnightt
-# BlueKnight
+https://sryan5966.github.io/blueknightt/#/
