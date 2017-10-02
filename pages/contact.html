@@ -1,0 +1,47 @@
+<div class="content">
+
+<form name="ContactForm" action="" novalidate>
+
+ <label for="name"><h3>Your name:</h3></label><br />
+<input type="text" placeholder="name" name="name" size="30" ng-model="contact.name" ng-required="true" /><br/>
+<div ng-show="ContactForm.name.$touched && ContactForm.name.$invalid">
+   <small style="color:black; display:block; text-align:center;">Enter a valid name</small>
+   </div>
+
+<label for="email"><h3>Your email:</h3></label><br />
+<input type="email" placeholder="Email" name="email" size="30" ng-model="contact.email" ng-required="true"/><br/>
+<div ng-show="ContactForm.email.$touched && ContactForm.email.$invalid">
+   <small style="color:black; display:block; text-align:center;">Enter a valid email</small>
+   </div>
+
+ <label for="message"><h3>Your message:</h3></label><br />
+<textarea name="message" rows="7" cols="30" ng-model="contact.message" > </textarea><br/>
+
+<input type="submit" value="Send" ng-disabled="ContactForm.$invalid" />
+
+</form>
+</div>
+
+
+
+
+<div class="span4">
+    <div class="p30">
+        <h4>Newsletter</h4>
+        <form class="form" style="width: 100%;">
+     
+            <input type="text" class="input" placeholder="Enter your email address" style="width: 100%; height: 34px; display: block; color: #a0a0a0; font-size: 15px; font-family: Arial, sans-serif; padding: 6px; border: 1px solid #cfcfcf; outline-width: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"  />
+
+            <input type="submit" value="Subscribe!" style="width: 100%; height: 34px; display: block; color: #ffffff; font-size: 16px; font-weight: bold; font-family: Arial, sans-serif; padding: 8px; margin-top: 5px; background-color: #a2a2a2; border-width: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; outline-width: 0px; cursor: pointer;" />
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<hr>

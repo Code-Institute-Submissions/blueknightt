@@ -1,0 +1,115 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="style1.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+ <script src="app.js"></script>
+ <title>BLUE KNIGHTS</title>
+  </head>
+  <body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="sr-only"> toggle nav</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      <li><a href="#/home">Home <span class="glyphicon glyphicon-home"></span></a></li> 
+        <li><a href="#/tour">Tour <span class="glyphicon glyphicon-tag"></span></a></li>
+        <li><a href="#/about">About <span class="glyphicon glyphicon-envelope"></span></a></li>
+        <li><a href="#/video">Video <span class="glyphicon glyphicon-film"></span></a></li> 
+        <li><a href="#/music">Music <span class="glyphicon glyphicon-music"></span></a></li> 
+        <li><a href="#/contact">Contact <span class="glyphicon glyphicon-envelope"></span> </a></li> 
+       
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+
+  
+<div class="container">
+
+
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/arrow.jpeg" style="height: 250px">
+          <div class="carousel-caption">
+              <h3>BLUE KNIGHTS</h3>
+              
+          </div>
+      </div>
+
+      <div class="item">
+      <img src="img/swing.jpg" style="height: 250px">
+          <div class="carousel-caption">
+              <h3>BLUE KNIGHTS</h3>
+              
+          </div>
+      </div>
+
+      <div class="item">
+         <img src="img/davy.jpg"  style="height: 250px">
+          <div class="carousel-caption">
+              <h3>BLUE KNIGHTS</h3>
+              
+          </div>
+      </div>
+    </div>
+
+   
+  
+  </div>
+</div>
+
+<br>
+
+<div ng-view></div>
+</div>
+
+
+
+
+<footer>
+<h5>TEL: 011234567</h5>
+<h6>EMAIL:BAND@GMAIL.COM</h6>
+<div class="footer-social">
+<ul>
+    <li><a href="http://www.facebook.com"><img class="img2" src="img/facebook.png" height="25" height="25" /></a></li>
+    <li><a href="http://www.twitter.com"><img class="img2" src="img/twitter.png" width="25" height="25" /></a></li>
+        <li><a href="http://www.youtube.com"><img class="img2" src="img/youtube.png" width="25" height="25" /></a></li>
+        <li><a href="http://www.itunes.com"><img class="img2" src="img/itunes.ico" width="25" height="25" /></a></li>
+        </ul>
+</div>
+   </footer>
+ 
+  </body>
+</html>
