@@ -6,8 +6,8 @@ myApp.config(function ($routeProvider) {
 
   .when('/', {
 
-templateUrl: 'pages/about.html',
-controller: 'aboutController'
+templateUrl: 'pages/home.html',
+controller: 'homeController'
 
 
 })
