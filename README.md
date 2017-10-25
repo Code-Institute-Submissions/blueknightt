@@ -8,7 +8,7 @@ This project was deployed through GitHub pages at https://sryan5966.github.io/bl
 
 The name blueknight was generated with this website https://www.bandnamemaker.com/. This is a website to show the work (video and audio) of the band. All audio and video is work done by the band "The monkeys". 
 
-## How
+## Tech Used
 
 The project was made with these languages.
 
