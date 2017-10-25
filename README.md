@@ -20,6 +20,8 @@ The project was made with these languages.
 
 ## Layout
 
+I wanted to keep the layout as text free as possible. Because of this I relied heavily on the video, audio and imagery. Another way to keep text free design is the hover transitions on the imagies (in band info) and social icons (at the bottom of every page. 
+
 ## Issues Faced
 
 1. Getting the pages to link up with each other.
